@@ -4,28 +4,17 @@ Simple Travis example for C using GCC compiler based on the identifier program p
 
 Test results:
 
-[<img alt="Build Status" src="https://www.travis-ci.com/rafaelgaribotti/travis-identifier.svg?branch=main" height="40">][travis-url]
-
-Important files:
-
-* [identifier.c](identifier.c)
-* [Makefile](Makefile)
-* [.travis.yml](.travis.yml)
-
-
-Author
-------
-[**Rafael Garibotti**](https://br.linkedin.com/in/rafaelgaribotti)
+[<img alt="Build Status" src="https://www.travis-ci.com/rafixcs/TestsAndConf_TF.svg?branch=main" height="40">][travis-url]
 
 
 License
 -------
 MIT License. See [LICENSE](LICENSE) for details.
 
-[main-url]: https://github.com/rafaelgaribotti/travis-identifier
-[readme-url]: https://github.com/rafaelgaribotti/travis-identifier/blob/main/README.md
-[license-url]: https://github.com/rafaelgaribotti/travis-identifier/blob/main/LICENSE
+[main-url]: https://github.com/rafixcs/TestsAndConf_TF
+[readme-url]: https://github.com/rafixcs/TestsAndConf_TF/blob/main/README.md
+[license-url]: https://github.com/rafixcs/TestsAndConf_TF/blob/main/LICENSE
 [license-img]: https://img.shields.io/github/license/rsp/travis-hello-modern-cpp.svg
-[travis-url]: https://www.travis-ci.com/rafaelgaribotti/travis-identifier
-[travis-img]: https://www.travis-ci.com/rafaelgaribotti/travis-identifier.svg?branch=master
-[github-follow-url]: https://github.com/rafaelgaribotti
+[travis-url]: https://www.travis-ci.com/rafixcs/TestsAndConf_TF
+[travis-img]: https://www.travis-ci.com/rafixcs/TestsAndConf_TF.svg?branch=master
+[github-follow-url]: https://github.com/rafixcs
