@@ -26,7 +26,7 @@ ifeq ($(shell uname -s), Darwin)
 C_COMPILER=clang
 endif	
 
-UNITY_ROOT=../Unity_m
+UNITY_ROOT=../Unity
 
 CFLAGS=-std=c99
 CFLAGS += -Wall
