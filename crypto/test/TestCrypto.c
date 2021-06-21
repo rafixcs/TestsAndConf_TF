@@ -1,6 +1,7 @@
 #include "crypt.h"
 #include "unity.h"
 #include "unity_fixture.h"
+#include <string.h>
 
 TEST_GROUP(Crypto);
 
@@ -14,8 +15,8 @@ TEST_TEAR_DOWN(Crypto)
 
 TEST(Crypto, TestCrypto0)
 {
-	int i, type, enc_dec;
-	unsigned int cipher[4];
+	int type, enc_dec;
+	unsigned int cipher[4] = {0,0,0,0};
 
 	unsigned int key[8] = {
 		0xDEADBEEFL, 0x01234567L, 0x89ABCDEFL, 0xDEADBEEFL,
@@ -50,8 +51,8 @@ TEST(Crypto, TestCrypto0)
 }
 TEST(Crypto, TestCrypto1)
 {
-	int i, type, enc_dec;
-	unsigned int cipher[4];
+	int type, enc_dec;
+	unsigned int cipher[4] = {0,0,0,0};
 
 	unsigned int key[8] = {
 		0xDEADBEEFL, 0x01234567L, 0x89ABCDEFL, 0xDEADBEEFL,
@@ -86,8 +87,8 @@ TEST(Crypto, TestCrypto1)
 }
 TEST(Crypto, TestCrypto2)
 {
-	int i, type, enc_dec;
-	unsigned int cipher[4];
+	int type, enc_dec;
+	unsigned int cipher[4] = {0,0,0,0};
 
 	unsigned int key[8] = {
 		0xDEADBEEFL, 0x01234567L, 0x89ABCDEFL, 0xDEADBEEFL,
@@ -122,8 +123,8 @@ TEST(Crypto, TestCrypto2)
 }
 TEST(Crypto, TestCrypto3)
 {
-	int i, type, enc_dec;
-	unsigned int cipher[4];
+	int type, enc_dec;
+	unsigned int cipher[4] = {0,0,0,0};
 
 	unsigned int key[8] = {
 		0xDEADBEEFL, 0x01234567L, 0x89ABCDEFL, 0xDEADBEEFL,
@@ -158,8 +159,8 @@ TEST(Crypto, TestCrypto3)
 }
 TEST(Crypto, TestCrypto4)
 {
-	int i, type, enc_dec;
-	unsigned int cipher[4];
+	int type, enc_dec;
+	unsigned int cipher[4] = {0,0,0,0};
 
 	unsigned int key[8] = {
 		0xDEADBEEFL, 0x01234567L, 0x89ABCDEFL, 0xDEADBEEFL,
@@ -194,8 +195,8 @@ TEST(Crypto, TestCrypto4)
 }
 TEST(Crypto, TestCrypto5)
 {
-	int i, type, enc_dec;
-	unsigned int cipher[4];
+	int type, enc_dec;
+	unsigned int cipher[4] = {0,0,0,0};
 
 	unsigned int key[8] = {
 		0xDEADBEEFL, 0x01234567L, 0x89ABCDEFL, 0xDEADBEEFL,
@@ -230,8 +231,8 @@ TEST(Crypto, TestCrypto5)
 }
 TEST(Crypto, TestCrypto6)
 {
-	int i, type, enc_dec;
-	unsigned int cipher[4];
+	int type, enc_dec;
+	unsigned int cipher[4] = {0,0,0,0};
 
 	unsigned int key[8] = {
 		0xDEADBEEFL, 0x01234567L, 0x89ABCDEFL, 0xDEADBEEFL,
@@ -266,8 +267,9 @@ TEST(Crypto, TestCrypto6)
 }
 TEST(Crypto, TestCrypto7)
 {
-	int i, type, enc_dec;
-	unsigned int cipher[4],cipher_aux[4];
+	int type, enc_dec;
+	unsigned int cipher[4] = {0,0,0,0};
+	unsigned int cipher_aux[4] = {0,0,0,0};
 
 	unsigned int key[8] = {
 		0xDEADBEEFL, 0x01234567L, 0x89ABCDEFL, 0xDEADBEEFL,
