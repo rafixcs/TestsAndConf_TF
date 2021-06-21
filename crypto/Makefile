@@ -73,7 +73,7 @@ valgrind:
 	valgrind --leak-check=full --show-leak-kinds=all ./$(TARGET1)
 
 gcov:
-	gcov -rbp crypt.c
+	gcov -rbp crypt.c aes.c blowfish.c xtea.c
 
 clean:
 	rm -fr $(ALL) *.o cov* *.dSYM *.gcda *.gcno *.gcov *.out
